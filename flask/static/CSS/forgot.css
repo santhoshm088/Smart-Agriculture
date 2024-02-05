@@ -1,0 +1,28 @@
+
+
+#top{
+    /* background-color: rgb(0, 251, 255); */
+    background-image: url("../banner.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+div div input{
+    border-radius: 3px;
+    border: 2px solid rgb(171, 34, 34);
+    width: 300px;
+    
+}
+.btn{
+    width: 260px;
+}
+button:hover{
+    background-color: rgb(9, 123, 61);
+    transition: .5s;
+ }
+#top1{
+    background-color: #EEF5FF;
+    width: 440px;
+    height: 410px;
+}
+

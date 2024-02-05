@@ -1,0 +1,304 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     
+      <title>Smart agriculture</title>
+     
+      
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link rel="stylesheet" href="{{url_for('static',filename='css/first.css')}}">
+      <script type="text/javascript" src="{{url_for('static',filename='scripts/first.js')}}"></script>
+
+
+      
+
+  
+   </head>
+  
+   <body class="main-layout">
+    
+      <div class="loader_bg" name="loader_bg" id="loader_bg">
+         <div class="loader" ><img src="{{url_for('static',filename='loading.gif')}}" alt="#" /></div>
+      </div>
+      <header>
+        
+         <div class="header py-3">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section ">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <img src="{{url_for('static',filename='logo.png')}}" style="height: 60px; margin-top: -15px;" alt="#" />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                         
+                              
+         
+
+
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html"> Home  </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{{url_for('about')}}">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{{url_for('fertilizer')}}">Fertilizer </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{{url_for('crop')}}">Crop Prediction</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{{url_for('season')}}">Seasonal Crop</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{{url_for('contact')}}">Contact</a>
+                              </li>
+
+ 
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <section class="banner_main" id="home">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="text-bg">
+                     <h1>SMART AGRICULTURE</h1>
+                     <p>Agriculture was the first occupation of man, and as it embraces the whole earth, it is the foundation of all other industries.</p>
+                     <a href="{{url_for('home')}}">Discover</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- three_box -->
+      <div class="three_box">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <figure><img src="{{url_for('static',filename='agri.jpeg')}}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <figure><img src="{{url_for('static',filename='fertilizer.jpeg')}}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <figure><img src="{{url_for('static',filename='foods.jpeg')}}" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- three_box -->
+      <!-- hottest -->
+      <div  class="hottest">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="titlepage">
+                     <h2>Future Towards <br>Smart Agriculture</h2>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="hottest_box">
+                     <p>The agriculture sector plays a vital role in enriching India’s economy. Agriculture accounted for almost 17.8% of India’s Gross Value Added (GVA) in 2019–20. According to the World Bank’s collection of development indicators, employment rate in the Indian agriculture sector stood at 41.5% in 2020. From a socio-economic standpoint, agriculture is a vital sector which requires focus and awareness at all levels. In the recent years, the agriculture sector has been facing various challenges such as yield plateaus, soil degradation, water stress, high imports on oilseeds, nutrition deficiency, volatile prices, inadequate infrastructure linkages, post-harvest loss, and information asymmetry. However, adverse climate changes remain one of the most significant issues faced by this sector. According to a report, India lost approximately 5.04 million hectares of crop area due to cyclones, floods, cloudbursts, and landslides until November 25, 2021. Such calamities have had a severe impact on farmers, especially small farmers who constitute close to 85% of the total farmers in India. Thus, there is a dire need for smart agriculture in India. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="choose ">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <div class="titlepage">
+                     <h2>Why Choose Us? </h2>
+                     <p>there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined  </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                  <div class="padding_with">
+                     <div class="row">
+                        <div class="col-md-6 padding_bottom">
+                           <div class="choose_box">
+                              <i><img src="{{url_for('static',filename='icon1.png')}}" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Excellent Service</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 padding_bottom">
+                           <div class="choose_box">
+                              <i><img src="{{url_for('static',filename='icon2.png')}}" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Clean Working</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 padding_bottom2">
+                           <div class="choose_box">
+                              <i><img src="{{url_for('static',filename='icon3.png')}}" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Quality And Reliability</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="choose_box">
+                              <i><img src="{{url_for('static',filename='icon4.png')}}" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Expert Farmer</h3>
+                                 <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                  <div class="choose_img">
+                     <figure><img src="{{url_for('static',filename='engineer.jpeg')}}" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <a class="read_more" href="">Read More</a>
+               </div>
+            </div>
+         </div> -->
+      </div>
+      </div>
+      <!-- end choose  section -->
+     
+      
+      <!--  footer -->
+      <footer id="contact" style="margin-top: 2px;">
+         <div class="footer" id="contact">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="titlepage">
+                        <h2>Contact Us</h2>
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <form id="request" class="main_form">
+                        <div class="row">
+                           <div class="col-md-3 ">
+                              <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+                           </div>
+                           <div class="col-md-3">
+                              <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                           </div>
+                           <div class="col-md-3">
+                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                           </div>
+                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                              <ul class="social_icon">
+                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                              </ul>
+                           </div>
+                           <div class="col-md-8">
+                              <textarea class="contactus1" placeholder="Message" type="type" Message="Name">Message </textarea>
+                           </div>
+                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                              <button class="send_btn">Send</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="col-md-4 border_right">
+                     <ul class="location_icon">
+                        <li><a href="#"><i class="fa fa-map-marker" ></i></a>Perundurai</li>
+                        <li><a href="#"><i class="fa fa-volume-control-phone"></i></a> +91 9654358543</li>
+                        <li><a href="#"><i class="fa fa-envelope"></i></a>kongu54@.com</li>
+                     </ul>
+                  </div>
+                 
+                  <div class="col-md-4 border_right">
+                     <h3>Menus</h3>
+                     <ul class="link">
+<li><a href="#home">Home</a></li>                             
+<li><a href="{{url_for('about')}}">About</a></li>                                                     
+<li><a href="{{url_for('home')}}">Products</a></li>                             
+
+<li><a href="#contact">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4">
+                     <form class="bottom_form">
+                        <h3>Newsletter</h3>
+                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="sub_btn">subscribe</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>Copyright 2019 All Right Reserved By Smart Agriculture</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+

@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(28, 112, 28);
+}
+#text {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  text-indent: 50px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.crop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.crop {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: calc(33.33% - 40px);
+  box-sizing: border-box;
+}
+
+.crop img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.crop h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: rgb(163, 102, 89);
+}
+
+.crop p {
+  margin-top: 5px;
+  color: #666;
+}

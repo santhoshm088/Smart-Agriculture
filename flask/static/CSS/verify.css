@@ -1,0 +1,32 @@
+div .div1{
+
+    background-color: #FCC8D1;
+}
+
+.font{
+    font-size: larger;
+    color: rgb(31, 128, 239);
+}
+input[type=number]{
+
+border-radius: 5px;
+border: 1px solid black;
+height: 30px;
+width: 30px;
+text-align: center;
+
+}
+button{
+    padding: 3px;
+    border-radius: 5px;
+    width: 100px;
+    float: inline-end;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: rgb(9, 180, 54);
+}
+div input::-webkit-inner-spin-button,
+div input::-webkit-outer-spin-button{
+    display: none;
+}
